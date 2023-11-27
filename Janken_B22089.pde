@@ -3,6 +3,7 @@ Game game;
 void setup(){
   surface.setSize(450,300);
   board = new Board();
+  game = new Game();
   background(0);
 }
 
